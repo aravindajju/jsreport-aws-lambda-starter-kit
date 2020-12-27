@@ -1,0 +1,251 @@
+body {
+ background-image: url('{#asset certificate-background.png @encoding=dataURI}');
+ background-size: cover;
+ height: 1030px;
+}
+
+/* General CSS*/
+
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    }
+
+p{
+    font-size: 15px;
+}
+
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.center-block {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+ }
+ 
+ .text-center {
+    text-align:center
+ }
+
+
+.section-title{
+    padding-top: 80px;
+    padding-bottom: 50;
+}
+
+.section-title h2{
+    position: relative;
+    text-align:center;
+    color: #333;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.section-title h2:after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    background-color: #129CF3;
+    margin-left: -30px;
+}
+
+.section-title p:{
+    color: #333;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 45px;
+    
+}
+
+
+.intro{
+    margin-right: 100px; 
+    padding-top: 80px; 
+    padding-bottom: 30px; 
+    text-align:center;
+    color:black;
+    font-size: 30px;
+    font-weight: 400; 
+     
+}
+
+
+.details{
+
+    padding-top: 280px; 
+    text-align: center; 
+    padding-bottom: 85px; 
+    
+}
+
+.details h1{
+
+    position: relative;
+    text-align:center;
+    color: rgb(31, 101, 135);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size:x-large;
+    
+}
+
+
+.details .label{
+
+    position: relative;
+    text-align:left;
+    color: rgb(94, 99, 101);
+    font-weight:350;
+    font-size:medium;
+    text-transform: uppercase
+    
+}
+
+
+.details .name{
+        padding-top: 45px; 
+        padding-bottom: 45px; 
+}
+
+.details .measure{
+
+    position: relative;
+    text-align:left;
+    color: rgb(94, 99, 101);
+    font-weight: 150;
+    font-size:medium;
+    font-style: italic;    
+}
+
+
+.details .content{
+
+    position: relative;
+    text-align:left;
+    color: rgb(31, 101, 135);
+    font-weight: 500;
+    font-size:x-large;
+    text-transform: uppercase
+    
+}
+
+.details .centeredcontent{
+
+    position: relative;
+    text-align:center;
+    color: rgb(31, 101, 135);
+    font-weight: 500;
+    font-size:x-large;
+    text-transform:capitalize;
+
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.details .time{
+    padding-top: 20px; 
+    margin: auto;
+}
+
+
+.details .annex{
+    padding-top: 20px; 
+    margin: auto;
+}
+
+
+.details .left-align li{
+    text-align: left;
+    padding-left: 30px; 
+}
+
+.details img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px!important;
+}
+
+.Registration{
+    background-color: #f5f3f0; 
+    text-align: left; 
+    padding-bottom: 85px; 
+}
+.Registration li{
+    color:black;
+}
+
+.Registration .section-button{
+    padding-top: 50px;
+}
+
+
+
+.Features{
+    background-color: #ffffff; 
+    text-align: left; 
+    padding-bottom: 85px; 
+}
+.Features li{
+    color:black;
+}
+
+.Rules{
+    background-color: #f5f3f0; 
+    text-align: left; 
+    padding-bottom: 85px; 
+}
+.Rules li{
+    margin-bottom: 0.8em;     
+}
+
+
+.Resources li{
+    color:rgb(38, 83, 150);
+    text-decoration: underline;
+}
+
+.faqs{
+    background-color: #ffffff; 
+    text-align: left; 
+    padding-bottom: 85px; 
+}
+
+.togglet{
+    color:rgb(38, 83, 150);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.left-align li{
+    text-align: left;
+}
+.footer{
+    padding-top: 10px; 
+    background-color:#0561a2; 
+    color: white; 
+}
+
+.footer a{
+    color: white; 
+}
+
+
+

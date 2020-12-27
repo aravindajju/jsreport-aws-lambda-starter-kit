@@ -13,7 +13,7 @@ lambda.invoke({
   Payload: JSON.stringify({
     renderRequest: {
       template: {
-        name: 'invoice-main'
+        name: 'social-certificate'
       }
     }
   })

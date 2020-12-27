@@ -1,0 +1,27 @@
+{
+    "shortid": "HylDO56NTD",
+    "name": "social-certificate",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1608993395347
+    },
+    "modificationDate": {
+        "$$date": 1609044575769
+    },
+    "_id": "2UE7G8oy6AC3hgDa",
+    "$entitySet": "templates",
+    "pdfMeta": {
+        "title": "Fizztival Finisher Certificate",
+        "author": "GeeksOnFeet",
+        "creator": "https://geeksonfeet.com",
+        "producer": "A2",
+        "subject": "5k Social/Race Finisher"
+    },
+    "data": {
+        "shortid": "SylZX66E6D"
+    }
+}

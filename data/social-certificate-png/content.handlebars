@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <style>
+            {#asset style.css @encoding=utf8}
+        </style>
+
+    </head>
+    <body>
+
+<section class="details">   
+    <div class="time" align="center">
+    <table>
+        <tr>
+            <div class="profile_pic">
+                {{#if profile_pic}} 
+                <td style="width:120px;align:right">
+                        <img src="{{profile_pic}}">
+                </td>
+                {{/if}}
+            </div>
+        <td style="width:295px;">
+            <div class="name">
+                <h1>{{name}}</h1>
+            </div>
+        </td>
+    </table>
+    </div>        
+    <div class="time" align="center">
+    <table>
+        <tr>
+        <td style="width:200px;">
+            <div class="label">Bib</div>
+        </td>
+        <td>
+            <div class="content">{{bib}}</div>
+        </td>
+        </tr>
+        <tr>
+        <td>
+            <div class="label">Finish Time</div>
+        </td>
+        <td>
+            <div class="content">{{finishtime}}
+            <span class="measure">mm:ss</span>
+            </div>
+        </td>
+        </tr>
+        <tr>
+        <td>
+            <div class="label">Pace</div>
+        </td>
+        <td>
+            <div class="content">{{pace}}
+            <span class="measure">min/km</span></div>
+        </td>
+        </tr>
+
+    </table>
+    </div>
+
+    <div class="annex">
+        <div class="centeredcontent" style="width:350px;margin:auto">
+            {{city}}, {{state}}
+        </div>
+        <div  class="centeredcontent">
+            {{running_group}}
+        </div>
+    </div>
+
+    <div class="time" align="center">
+    <table>
+        <tr>
+        <td style="width:100px;">
+            <div class="label">Run Type</div>
+        </td>
+        <td style="width:300px;">
+            <div class="content" >{{#racetype race_type}}{{/racetype}}</div>
+        </td>
+        <td style="width:100px;">
+            <div class="label">Category</div>
+        </td>
+        <td>
+            <div class="content">{{sex}} {{#agecategory age_category}}{{/agecategory}}</div>
+        </td>
+        </tr>
+    </table>
+
+    </div>
+
+
+</section>
+
+    </body>
+</html>

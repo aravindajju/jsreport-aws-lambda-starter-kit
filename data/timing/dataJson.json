@@ -1,0 +1,72 @@
+{
+      "bib": "52042",
+      "after": false,
+      "cat_rank": 22,
+      "dummystatus": 1,
+      "distance": 5028,
+      "city_rank": 40,
+      "num_success": 2,
+      "age_category": 30,
+      "finishtime":"25:30",
+      "pace":"5:10",
+      "sex": "M",
+      "state_rank": 67,
+      "valid_athlete_id": true,
+      "overall_rank": 644620,
+      "time": 2286,
+      "email": "Siddheshchogale@gmail.com",
+      "name": "Marimuthu",
+      "state": "Uttarkhand, Uttaranchal, XYZ",
+      "city": "Mumbai ",
+      "o_cat_rank": 21,
+      "gender_rank": 168,
+      "mobile": 9136183324,
+      "dob": "09-03-1988",
+      "athlete_id": 41154300,
+      "batch": "20201221",
+      "num_activities": 3,
+      "location": "<empty>",
+      "o_running_group_rank": "'-1",
+      "velocity": 2.199737549,
+      "batchtime": 1610000000000,
+      "activity_date": "1.61E+12",
+      "rank": 1337,
+      "activity_id": 4491584163,
+      "race_type": "N",
+      "valid_activity": true,
+      "older": false,
+      "valid_age": true,
+      "o_gender_rank": 168,
+      "o_rank": 1337,
+      "distance_raw": 5028.600098,
+      "running_group_rank": null,
+      "running_group": null,
+      "FIELD43": "",
+      "splits":[
+            {
+            "KM": 1,
+            "Pace": "7:04 /km",
+            "Seconds": 424
+            },
+            {
+            "KM": 2,
+            "Pace": "6:23 /km",
+            "Seconds": 383
+            },
+            {
+            "KM": 3,
+            "Pace": "7:22 /km",
+            "Seconds": 442
+            },
+            {
+            "KM": 4,
+            "Pace": "8:24 /km",
+            "Seconds": 504
+            },
+            {
+            "KM": 5,
+            "Pace": "6:44 /km",
+            "Seconds": 404
+            }
+      ]
+   }
